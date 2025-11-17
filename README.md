@@ -1,4 +1,4 @@
-# FuturaDrive - Infotainment UI 🚗
+# FuturaDrive - Infotainment UI
 
 `FuturaDrive` is a prototype of a modern vehicle infotainment interface, built entirely with **React**, **Tailwind CSS**, and **React Router**. It simulates a digital dashboard for managing comfort, autonomy, diagnostics, settings, and more.
 
@@ -7,24 +7,24 @@
 
 ---
 
-## 🎯 Core Features
+## Core Features
 
 The system is divided into main modules, each managing a specific aspect of the vehicle:
 
-* **🏠 Dashboard:** The central hub with quick access to all main functions and an at-a-glance vehicle status.
-* **🔋 Autonomy:** Displays remaining range, a range map, and consumption graphs (using `recharts`).
-* **💨 Comfort:** Granular control over climate, seat heating/ventilation, and ambient lighting.
-* **🩺 Diagnostics:** System status scanning, monitoring of "vitals" (temperatures, pressures), and test execution.
-* **🔧 Service:** Displays maintenance history and upcoming service deadlines (check-ups, inspections).
-* **👤 Profile:** User profile management and overall driving statistics.
-* **🌿 Energy Saving:** Selection of driving modes (Eco, Normal, Sport) to optimize performance.
-* **📡 Telemetry:** Recording and viewing driving session data.
-* **⏱️ Intertime:** Monitors continuous driving time to manage breaks.
-* **⚙️ Settings:** Configuration of system preferences (display, sound, connectivity).
+* **Dashboard:** The central hub with quick access to all main functions and an at-a-glance vehicle status.
+* **Autonomy:** Displays remaining range, a range map, and consumption graphs (using `recharts`).
+* **Comfort:** Granular control over climate, seat heating/ventilation, and ambient lighting.
+* **Diagnostics:** System status scanning, monitoring of "vitals" (temperatures, pressures), and test execution.
+* **Service:** Displays maintenance history and upcoming service deadlines (check-ups, inspections).
+* **Profile:** User profile management and overall driving statistics.
+* **Energy Saving:** Selection of driving modes (Eco, Normal, Sport) to optimize performance.
+* **Telemetry:** Recording and viewing driving session data.
+* **Intertime:** Monitors continuous driving time to manage breaks.
+* **Settings:** Configuration of system preferences (display, sound, connectivity).
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 This project is built using a modern and high-performance technology stack:
 
@@ -37,7 +37,7 @@ This project is built using a modern and high-performance technology stack:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 To run this project locally:
 
@@ -65,7 +65,7 @@ To run this project locally:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 The source code is organized logically to promote maintainability and scalability:
 
@@ -91,16 +91,10 @@ The source code is organized logically to promote maintainability and scalabilit
 
 ---
 
-## ✨ Best Practices Implemented
+## Best Practices Implemented
 
 * **Clean Architecture:** Clear separation between `pages`, `layout`, and `ui` components.
 * **Modern Routing:** Use of `createBrowserRouter` and `<Outlet>` from React Router 6.
 * **Centralized Theming:** Tailwind classes are managed in `colors.js` to ensure visual consistency and easy theme updates.
 * **Reusable Components:** Abstraction of UI logic into reusable components like `StatItem` and `ActionItem` to reduce code duplication.
 * **Accessibility (a11y):** Use of `role` and `aria-*` attributes (e.g., in `ToggleSwitch`) to improve the experience for screen readers.
-
----
-
-## 📄 License
-
-This project is distributed under the MIT License. See the `LICENSE` file for more information.
